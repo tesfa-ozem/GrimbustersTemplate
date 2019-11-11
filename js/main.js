@@ -264,7 +264,13 @@ preloader
 		}
 		$("#msgSubmit").removeClass().addClass(msgClasses).text(msg);
 	}
-    
-
+	/*------------------------
+	 footer date
+	-------------------------- */
+	$(window).on("load",function() {
+		var year = $("#year");
+		var dt = new Date();
+		year.text(dt.getFullYear())
+	})
 
 })(jQuery); 
