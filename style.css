@@ -1559,6 +1559,9 @@ span.dolar {
     float: right;
     padding: 10px 0px;
 }
+.phone-number{
+    color: #e55175;
+}
 .banner-contact span i {
     display: inline-block;
     width: 40px;
@@ -1570,7 +1573,7 @@ span.dolar {
     border-radius: 50%;
     margin-right: 20px;
 }
-.banner-contact span {
+.banner-contact {
     color: #fff;
     font-weight: 700;
     font-size: 20px;
