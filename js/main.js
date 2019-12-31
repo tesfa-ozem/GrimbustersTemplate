@@ -263,7 +263,11 @@ preloader
 			var msgClasses = "h3 text-center text-danger";
 		}
 		$("#msgSubmit").removeClass().addClass(msgClasses).text(msg);
-	}
+    }
+    function myFunction() {
+        var popup = document.getElementById("myPopup");
+        popup.classList.toggle("show");
+      }
 	/*------------------------
 	 footer date
 	-------------------------- */
@@ -274,3 +278,4 @@ preloader
 	})
 
 })(jQuery); 
+
