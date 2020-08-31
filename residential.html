@@ -16,32 +16,45 @@
     <!-- favicon -->
     <link rel="shortcut icon" type="image/x-icon" href="img/logo/title_icon.png">
 
-    <!-- all css here -->
-
     <!-- bootstrap v3.3.6 css -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <!-- owl.carousel css -->
-    <link rel="stylesheet" href="css/owl.carousel.css">
-    <link rel="stylesheet" href="css/owl.transitions.css">
-    <!-- meanmenu css -->
-    <link rel="stylesheet" href="css/meanmenu.min.css">
-    <link rel="stylesheet" href="css/icon.css">
-    <!-- font-awesome css -->
-    <link rel="stylesheet" href="css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/flaticon.css">
-    <link rel="stylesheet" href="css/flaticon_2.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <!-- owl.carousel css -->
+        <link rel="stylesheet" href="css/owl.carousel.css">
+        <link rel="stylesheet" href="css/owl.transitions.css">
+        <!-- meanmenu css -->
+        <link rel="stylesheet" href="css/meanmenu.min.css">
+        <!-- font-awesome css -->
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/flaticon.css">
+        <link rel="stylesheet" href="css/icon.css">
+        <!-- magnific css -->
+        <link rel="stylesheet" href="css/magnific.min.css">
+        <!-- venobox css -->
+        <link rel="stylesheet" href="css/venobox.css">
+        <!-- style css -->
+        <link rel="stylesheet" href="style.css">
+        <!-- responsive css -->
+        <link rel="stylesheet" href="css/responsive.css">
 
-    <!-- magnific css -->
-    <link rel="stylesheet" href="css/magnific.min.css">
-    <!-- venobox css -->
-    <link rel="stylesheet" href="css/venobox.css">
-    <!-- style css -->
-    <link rel="stylesheet" href="/style.css">
-    <!-- responsive css -->
-    <link rel="stylesheet" href="css/responsive.css">
+        <!-- modernizr css -->
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    <style type="text/css">
+        .image-conatiner{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.before-image + .after-image{
+    height: 300px;
+}
 
-    <!-- modernizr css -->
-    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+.image-res{
+    object-fit: cover;
+    height: 200px;
+    width: 300px;
+}
+    </style>
 </head>
 
 <body>
@@ -84,7 +97,7 @@
                         <div class="logo">
                             <!-- Brand -->
                             <a class="navbar-brand page-scroll sticky-logo" href="index.html">
-                                <img src="img/logo/logo.png" alt="">
+                                <img src="img/logo/logo.png" loading="lazy"  alt="">
                             </a>
                         </div>
                     </div>
@@ -222,26 +235,10 @@
                         <div class="single-service">
                             <div class="image-conatiner">
                                 <div clss="before-image">
-                                    <img class="image-res" src="img/residential/IMG_8026.JPG" alt="">
+                                    <img class="image-res" loading="lazy"  src="img/residential/IMG_8026.JPG" alt="IMG_8026">
                                 </div>
-                                <div class="after-image">
-                                    <img class="image-res" src="img/residential/IMG_8109.JPG" alt="">
-                                </div>
-                            </div>
-                            <div class="service-content">
-                                
-                                <!-- <a class="service-btn" href="#">read more</a> -->
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="single-service">
-                            <div class="image-conatiner">
-                                <div clss="before-image">
-                                    <img class="image-res" src="img/residential/IMG_8034.JPG" alt="">
-                                </div>
-                                <div class="after-image">
-                                    <img class="image-res" src="img/residential/IMG_8098.JPG" alt="">
+                                <div class="after-image"> 
+                                    <img class="image-res" loading="lazy"  src="img/residential/IMG_8109.JPG" alt="IMG_8109">
                                 </div>
                             </div>
                             <div class="service-content">
@@ -254,7 +251,10 @@
                         <div class="single-service">
                             <div class="image-conatiner">
                                 <div clss="before-image">
-                                    <img class="image-res" src="img/residential/IMG_E8419.JPG" alt="">
+                                    <img class="image-res" load="lazy"  src="img/residential/IMG_8034.JPG" alt="IMG_8034" height="200" width="300">
+                                </div>
+                                <div class="after-image">
+                                    <img class="image-res" loading="lazy"  src="img/residential/IMG_8098.JPG" alt="IMG_8098" height="200" width="300">
                                 </div>
                             </div>
                             <div class="service-content">
@@ -267,10 +267,7 @@
                         <div class="single-service">
                             <div class="image-conatiner">
                                 <div clss="before-image">
-                                    <img class="image-res" src="img/residential/IMG_7672.JPG" alt="">
-                                </div>
-                                <div class="after-image">
-                                    <img class="image-res" src="img/residential/IMG_7686.JPG" alt="">
+                                    <img class="image-res" loading="lazy" src="img/residential/IMG_E8419.JPG" alt="IMG_E8419" height="200" width="300">
                                 </div>
                             </div>
                             <div class="service-content">
@@ -283,10 +280,10 @@
                         <div class="single-service">
                             <div class="image-conatiner">
                                 <div clss="before-image">
-                                    <img class="image-res" src="img/residential/IMG_7687.JPG" alt="">
+                                    <img class="image-res" loading="lazy"  src="img/residential/IMG_7672.JPG" alt="IMG_7672" height="200" width="300">
                                 </div>
                                 <div class="after-image">
-                                    <img class="image-res" src="img/residential/IMG_7776.JPG" alt="">
+                                    <img class="image-res" loading="lazy"  src="img/residential/IMG_7686.JPG" alt="IMG_7686" height="200" width="300">
                                 </div>
                             </div>
                             <div class="service-content">
@@ -299,10 +296,10 @@
                         <div class="single-service">
                             <div class="image-conatiner">
                                 <div clss="before-image">
-                                    <img class="image-res" src="img/residential/IMG_E8412.JPG" alt="">
+                                    <img class="image-res" loading="lazy"  src="img/residential/IMG_7687.JPG" alt="IMG_7687" height="200" width="300">
                                 </div>
                                 <div class="after-image">
-                                    <img class="image-res" src="img/residential/IMG_E8427.JPG" alt="">
+                                    <img class="image-res" loading="lazy" src="img/residential/IMG_7776.JPG" alt="IMG_7776" height="200" width="300">
                                 </div>
                             </div>
                             <div class="service-content">
@@ -315,10 +312,10 @@
                         <div class="single-service">
                             <div class="image-conatiner">
                                 <div clss="before-image">
-                                    <img class="image-res" src="img/residential/IMG_7673.JPG" alt="">
+                                    <img class="image-res" loading="lazy"  src="img/residential/IMG_E8412.JPG" alt="IMG_E8412" height="200" width="300">
                                 </div>
                                 <div class="after-image">
-                                    <img class="image-res" src="img/residential/IMG_7780.JPG" alt="">
+                                    <img class="image-res" loading="lazy"  src="img/residential/IMG_E8427.JPG" alt="IMG_E8427" height="200" width="300">
                                 </div>
                             </div>
                             <div class="service-content">
@@ -331,16 +328,29 @@
                         <div class="single-service">
                             <div class="image-conatiner">
                                 <div clss="before-image">
-                                    <img class="image-res" src="img/residential/IMG_8025.JPG" alt="">
+                                    <img class="image-res" loading="lazy"  src="img/residential/IMG_7673.JPG" alt="IMG_7673" height="200" width="300">
                                 </div>
                                 <div class="after-image">
-                                    <img class="image-res" src="img/residential/IMG_8069.JPG" alt="">
+                                    <img class="image-res" loading="lazy"  src="img/residential/IMG_7780.JPG" alt="IMG_7780" height="200" width="300">
                                 </div>
                             </div>
                             <div class="service-content">
                                 
                                 <!-- <a class="service-btn" href="#">read more</a> -->
                             </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 col-xs-12">
+                        <div class="single-service">
+                            <div class="image-conatiner">
+                                <div clss="before-image">
+                                    <img class="image-res" loading="lazy"  src="img/residential/IMG_8025.JPG" alt="IMG_8025" height="200" width="300">
+                                </div>
+                                <div class="after-image">
+                                    <img class="image-res" loading="lazy"  src="img/residential/IMG_8069.JPG" alt="IMG_8069" height="200" width="300">
+                                </div>
+                            </div>
+                            
                         </div>
                     </div>
                 </div>
@@ -437,35 +447,34 @@
 
 
     <!-- all js here -->
-    <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
 
-    <script src="js/vendor/jquery-1.12.4.min.js"></script>
-    <!-- bootstrap js -->
-    <script src="js/bootstrap.min.js"></script>
-    <!-- owl.carousel js -->
-    <script src="js/owl.carousel.min.js"></script>
-    <!-- Counter js -->
-    <script src="js/jquery.counterup.min.js"></script>
-    <!-- waypoint js -->
-    <script src="js/waypoints.js"></script>
-    <!-- isotope js -->
-    <script src="js/isotope.pkgd.min.js"></script>
-    <!-- stellar js -->
-    <script src="js/jquery.stellar.min.js"></script>
-    <!-- magnific js -->
-    <script src="js/magnific.min.js"></script>
-    <!-- venobox js -->
-    <script src="js/venobox.min.js"></script>
-    <!-- meanmenu js -->
-    <script src="js/jquery.meanmenu.js"></script>
-    <!-- Form validator js -->
-    <script src="js/form-validator.min.js"></script>
-    <!-- plugins js -->
-    <script src="js/plugins.js"></script>
-    <!-- main js -->
-    <script src="js/main.js"></script>
+        <!-- jquery latest version -->
+        <script src="js/vendor/jquery-1.12.4.min.js"></script>
+        <!-- bootstrap js -->
+        <script src="js/bootstrap.min.js"></script>
+        <!-- owl.carousel js -->
+        <script src="js/owl.carousel.min.js"></script>
+        <!-- Counter js -->
+        <script src="js/jquery.counterup.min.js"></script>
+        <!-- waypoint js -->
+        <script src="js/waypoints.js"></script>
+        <!-- isotope js -->
+        <script src="js/isotope.pkgd.min.js"></script>
+        <!-- stellar js -->
+        <script src="js/jquery.stellar.min.js"></script>
+        <!-- magnific js -->
+        <script src="js/magnific.min.js"></script>
+        <!-- venobox js -->
+        <script src="js/venobox.min.js"></script>
+        <!-- meanmenu js -->
+        <script src="js/jquery.meanmenu.js"></script>
+        <!-- Form validator js -->
+        <script src="js/form-validator.min.js"></script>
+        <!-- plugins js -->
+        <script src="js/plugins.js"></script>
+        <!-- main js -->
+        <script src="js/main.js"></script>
+
 </body>
 
 </html>
